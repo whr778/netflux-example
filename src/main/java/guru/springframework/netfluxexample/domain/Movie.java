@@ -8,7 +8,11 @@ import org.springframework.data.mongodb.core.mapping.Document;
 /**
  * Created by jt on 9/1/17.
  */
+
+// Makes this a mongo DB document
 @Document
+
+// Lombok
 @Data
 @NoArgsConstructor
 public class Movie {
